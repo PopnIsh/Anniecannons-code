@@ -25,7 +25,7 @@ function onContactFormSubmit(event) {
 }
 
 // --- Login Form ---
-const loginForm = document.getElementById("login-form");
+const loginForm = document.getElementById("#login-form");
 loginForm.addEventListener("submit", onLoginFormSubmit);
 
 function onLoginFormSubmit(event) {
